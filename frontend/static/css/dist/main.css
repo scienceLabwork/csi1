@@ -1,0 +1,174 @@
+/* OUR CSS */
+
+.hover\:text-blue-200:hover {
+    --tw-text-opacity: 1;
+    color: rgb(191 219 254 / var(--tw-text-opacity));
+}
+
+.bgcolor {
+    background-color: rgb(36, 2, 45)
+}
+
+.tcolor {
+    color: #F9D3AA;
+}
+
+.marleft {
+    margin-left: -3rem;
+}
+
+.bg-stars-own {
+    background-image: url(../dist/stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(36, 2, 45);
+    max-width: 100%;
+}
+
+.tcolor:hover {
+    color: #EE84D4;
+}
+
+.bg-der{
+    border: 1px solid #EE84D4;
+}
+
+.bg-der:hover{
+    border: 1px solid #F9D3AA;
+}
+
+.txt-grad1{
+    background: linear-gradient(88.2deg, #FA69D6 -5.09%, #F9D3AA 98.47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glow{
+    box-shadow: 0 0 10px #f9c792, 0 0 30px #f9c792, 0 0 60px #f9c792;
+}
+
+.head_sp{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    /* position: absolute; */
+    /* top: 89%;
+    left: 43%; */
+    margin-bottom: 40px;
+}
+
+.sponsors{
+    margin-top: 100px;
+}
+
+.hr-sp{
+    background-color: yellow;
+}
+
+@keyframes glowing {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.head_sp_us{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    /* position: absolute; */
+    /* top: 89%;
+    left: 43%; */
+    margin-bottom: 40px;
+}
+
+.condfsd{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.all-cards
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.all-cards
+{
+    height: 100vh;
+}
+
+.all-cards
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ff7ada , #ffe1a0);
+    filter: drop-shadow(0 50px 100px rgba(238, 132, 211, 0.2));
+    width: 45%;
+}
+
+.description
+{
+    text-align: left;
+    padding: 5px 5px 10px 10px;
+    height: 220px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.time-slot
+{
+    background-color: rgb(36, 2, 45);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.date
+{
+    background-color: rgb(36, 2, 45);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    .all-cards
+    {
+        flex-direction: column;
+    }
+
+    .card
+    {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+}
