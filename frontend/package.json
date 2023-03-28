@@ -8,7 +8,7 @@
   "version": "1.0.0",
   "description": "CSI hackNuthon website developed by Rudra Shah 21bcm054.",
   "scripts": {
-    "tw-build": "npx tailwindcss -i ./frontend/static/css/src/input.css -o ./frontend/static/css/dist/output.css"
+    "tw-build": "npx tailwindcss -i ./static/css/src/input.css -o ./static/css/dist/output.css"
   },
   "keywords": [
     "csi"
