@@ -256,10 +256,6 @@ html {
     position: relative;
 }
 
-.timeline2 {
-    /* margin: 50px; */
-}
-
 .timeline ul,
 .timeline2 ul {
     margin: 0;
@@ -318,7 +314,7 @@ html {
     }
 
     .timeline2 {
-        margin: 0;
+        margin: -50px;
     }
 }
 

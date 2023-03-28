@@ -33,3 +33,19 @@ day2.addEventListener("click", function() {
         day1.classList.remove("active");
     }
 });
+
+
+// when smooth scrolling is enabled, scroll to section with hash with more 15 px as the nav bar is 15 px high
+
+if (document.querySelector(".navbar").classList.contains("navbar-smooth-scroll")) {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth',
+                block: "start",
+                inline: "nearest"
+            });
+        });
+    });
+}
