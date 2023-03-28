@@ -1,7 +1,7 @@
 /* OUR CSS */
 
 html {
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth; 
 }
 
 .hover\:text-blue-200:hover {
@@ -398,5 +398,5 @@ html {
 }
 
 .marginip3{
-    margin-top: 7rem;
+    margin-top: 1rem;
 }
