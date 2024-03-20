@@ -1,7 +1,7 @@
 /* OUR CSS */
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 .hover\:text-blue-200:hover {
@@ -389,14 +389,120 @@ html {
     }
 }
 
-.marginip{
+.marginip {
     margin-top: 3rem;
 }
 
-.marginip2{
+.marginip2 {
     margin-top: 1.3rem;
 }
 
-.marginip3{
+.marginip3 {
     margin-top: 1rem;
+}
+
+/*Section used for centering process*/
+
+.container123 {
+    box-sizing: border-box;
+    background: transparent;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.accordion-item {
+    width: 100%;
+    margin-top: 2px;
+    border-radius: .4rem;
+}
+
+.accordion-item hr {
+    border: 1px solid rgba(56, 52, 52, 0.5);
+}
+
+.accordion-link {
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10px;
+}
+
+.accordion-link h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.accordion-link i {
+    color: #000000;
+    padding: .5rem;
+
+}
+
+
+
+.accordion-link div {
+    display: flex;
+}
+
+.accordion-link .ion-md-arrow-down {
+    display: none;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+    transition: max-height 650ms;
+    box-shadow: 2px 4px 10px rgba(25, 24, 24, 0.5);
+}
+
+
+
+.answer p {
+    color: #000000;
+    font-size: 17px;
+    padding: 3rem 2rem;
+
+}
+
+.accordion-item:target .answer {
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-arrow-forward {
+    display: none
+}
+
+.accordion-item:target .accordion-link .ion-md-arrow-down {
+    display: block;
+}
+
+.hr2 {
+    height: 2px;
+    background-color: #ff7ada;
+    border: none;
+}
+
+.sponser-img{
+    width: 400px;
+    height: 170px;
+    object-position: center;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grideffect{
+    background:
+    conic-gradient(from 90deg at 1px 1px,#ffffff00 90deg,rgb(0, 0, 0) 0) 
+    0 0/50px 50px;
 }

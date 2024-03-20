@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "infra-signifier-381904",
+  "private_key_id": "6a3a78a746822aca377cc4333286c4188b0a6f6c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2jwecl6w2zwzp\n7WQbCIH1TmN1m86OZsiHY5mjOEG3U7hAFHVzMqzQuziqxsev0VetG9QWssLIatjs\ngZAdBb5iCfERUnxuYL+nhQbHijYqH1DBu8af5Ab8NWIyQtX3KRIOE/W0VZHOFjae\niSNdpGXR4wfHLpWeRYKOCRRWHscYCv1XqoK944Uuo4cXfXZXS1jenDM7edGmBYmV\nlWSuQml3ErfHfaeA+hqniyBsuO6vALsqZxSx3LrfkNc0BFgx43CoNbK7QL8+eQg5\niQMW/6v4iyOGSfUwy5fOXRosZ8Mfg/CJ0RnmiyqKk+HlpBTTF3F9Sh6SniVSXdc+\np4vz8zeLAgMBAAECggEABaxZOCLJqO2Fk24JPQKvdYAt6l6Fh9YUA2Y8Vx7Ry2ww\nQ5GIVkkQgoGCYz32UofG2dCNpmPJVoyuWKhaYjtdiMCR6VkcqqyaTvyhiak2+LLa\nSvnWZo/GU4LeC9jQBGs60sQtBsYBIS5+QQm2aW420K9TRaAiDghPZGhyifwH3yxs\ne6AAi5zLmoN+jncIeJckpd4PRXwgeMIFtedyQhX7hbcKi6jiBP4LAtIXlYrYSMOr\nnyU/Q0r138YdV8Y2tLcqYrN1kq46tc3606XpGc993UfzQHqr27nYrIoDFi5ZkuTQ\nbV1+24esk8xU2VE9Ika1XGHTGUUR+NnSdykTQIHlFQKBgQDrzqDb98nlwybsebra\nZC56A0F8CLB2Ko0Ua6H4ywp+p5NBzBrOm3j9RjMVYehrQOu49n7U7YAHl+v9kuZv\nLg8i+3rB3MYauHvB9xjopQ2l1rB7EI+Vnhx1qApyeHTgjrgNf3mUCuHzxuqN1IXI\n+qJZWBbnQrzfnJQKIukgKwSj9QKBgQDGMRZqTJR9ywESJCxGSiAr6rMAFo2stw07\nqq5LavMxNkPkgd0w2KO1PUq0S1wheKoOA7W9R42DO/AFLe0kamxZJdvds1zm8Ogf\ndPllYvnQKjoxUSIFobcQnIR/AbWX+D3BRvSdvwsAcJG2+xDBCccDe9OwT32ZnSRB\nHGl/KvK9fwKBgBgSNbV+q+t6amTFYF+ezmfCIVMqB+loGpK1Egm1oFKhhJS44xuo\nH0erfNd38SPRsr5k2zmdLO6ZgYuXDVLYHs9xYGydvtNHdcqtEKve/W+qZMWLQT0C\nsOEJ0FczGKs7pmoqUxzbp4kdCyCDS0zi2OPJ7DybQXCKKUqHmcig245pAoGAH6y0\nsmRuzvPkxet2D/3EyoAF/5ubJOFUghazKGZ9W34at6hxm17kOxECoXHx1X+dXgQF\nxaxr12962rkOT2Waz1yXmQUTce1Ki8x8F1IMLtKw3jTjRRclVMhO/KVfSlxoMj2O\n1q8zqOxUvXO+p7tSTSI7INBzeFt+8dECo0pP5S0CgYEAznom8EqHiALwfBm1wt3b\nI7qFA29WFsN/0LamU34LFeaaYoCYjK8dCg2ysrnq/chwZ0vUQADJhX8rjWDruoQp\nAOon+orBei+EyeDT4WHQAG7oPye3VPlD3bL0VvY5zUcaLFFIMGp0dlkqRVKg2/QU\nYVNbE5/fQ/qGALFaUrySWXk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rudrashah@infra-signifier-381904.iam.gserviceaccount.com",
+  "client_id": "109210014879820661651",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rudrashah%40infra-signifier-381904.iam.gserviceaccount.com"
+}

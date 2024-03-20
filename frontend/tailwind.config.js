@@ -4,7 +4,8 @@ module.exports = {
   content: [
     './templates/**/*.{html,js}',
     './static/**/*.js',
-    './node_modules/tw-elements/dist/js/**/*.js'
+    './node_modules/tw-elements/dist/js/**/*.js',
+    'node_modules/preline/dist/*.js',
   ],
   theme: {
     extend: {
@@ -15,6 +16,10 @@ module.exports = {
     }
   },
   plugins: [
-    require("tw-elements/dist/plugin")
+    require('@tailwindcss/typography'),
+    require("tw-elements/dist/plugin"),
+    require('@tailwindcss/forms'),
+    require('preline/plugin'),
+    require("daisyui")
   ],
 };
